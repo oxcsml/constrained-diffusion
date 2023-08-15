@@ -1,0 +1,46 @@
+_target_: score_sde.utils.switch.SwitchObject
+objects:
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 9
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 10
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 11
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 14
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 15
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 13
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 16
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 17
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 18
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 19
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 20
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 21
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 24
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 12
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 25
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 22
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 27
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 23
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 28
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 30
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 26
+    - _target_: riemannian_score_sde.datasets.antibody.Antibody
+      n_links: 29

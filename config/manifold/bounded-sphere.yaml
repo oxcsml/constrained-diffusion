@@ -1,0 +1,2 @@
+_target_: geomstats.geometry.with_boundary.us_border.BoundedHypersphere
+dim: 2

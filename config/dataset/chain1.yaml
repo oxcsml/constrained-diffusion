@@ -1,0 +1,3 @@
+_target_: riemannian_score_sde.datasets.antibody.Antibody
+n_links: 16
+batch_size: ${batch_size}

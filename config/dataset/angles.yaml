@@ -1,0 +1,3 @@
+_target_: score_sde.datasets.graph_dataset.GraphLoader
+batch_dims: ${batch_size}
+seed: ${seed}

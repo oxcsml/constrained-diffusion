@@ -1,0 +1,200 @@
+_target_: score_sde.utils.switch.SwitchObject
+objects:
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 9
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 8
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 10
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 9
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 11
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 10
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 14
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 13
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 15
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 14
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 13
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 12
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 16
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 15
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 17
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 16
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 18
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 17
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 19
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 18
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 20
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 19
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 21
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 20
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 24
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 23
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 12
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 11
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 25
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 24
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 22
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 21
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 27
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 26
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 23
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 22
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 28
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 27
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 30
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 29
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 26
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 25
+  - _target_: geomstats.geometry.product_manifold.ProductManifold
+    manifolds:
+      - _target_: geomstats.geometry.polytope.Polytope
+        n_links: 29
+      - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+        manifold:
+          _target_: geomstats.geometry.hypersphere.Hypersphere
+          dim: 1
+        mul: 28

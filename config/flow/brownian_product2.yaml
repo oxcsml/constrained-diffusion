@@ -1,0 +1,7 @@
+_target_: score_sde.product.ProductSDE
+sdes:
+  - _target_: riemannian_score_sde.sde.Brownian
+  - _target_: riemannian_score_sde.sde.Brownian 
+N: ${N}
+boundary_enforce: ${boundary_enforce}
+std_trick: ${std_trick}

@@ -1,0 +1,5 @@
+_target_: riemannian_score_sde.losses.get_product_ism_loss_fn
+like_w: true
+w_floor: 1
+repeats_per_batch: ${rpb}
+hutchinson_type: None

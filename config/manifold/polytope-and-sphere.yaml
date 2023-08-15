@@ -1,0 +1,4 @@
+_target_: geomstats.geometry.with_boundary.polytope_and_sphere.PolytopeAndSphere
+npz: ${npz}
+metric_type: ${metric_type}
+eps: ${p_eps}

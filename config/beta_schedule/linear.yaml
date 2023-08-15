@@ -1,0 +1,6 @@
+_target_: score_sde.schedule.LinearBetaSchedule
+beta_0: ${beta_0}
+beta_f: ${beta_f}
+t0: 0.
+tf: 1.
+lambda0: 1.

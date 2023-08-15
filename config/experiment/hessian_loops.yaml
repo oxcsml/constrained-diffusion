@@ -1,0 +1,42 @@
+# @package _global_
+
+name: hessian_loops
+
+defaults:
+  - /dataset: polytope-torus
+  - /manifold: polytope-torus
+  - /architecture: concat
+  - /embedding: none
+  - /model: rsgm
+  - override /generator: ambient-torus
+  - override /pushf: product
+  - override /flow: brownian_product2
+  - override /loss: product_ism
+  
+data_dir: /data/ziz/not-backed-up/fishman/score-sde/data/
+npz: /data/ziz/not-backed-up/fishman/score-sde/data/smooth_loops_dist.npz
+
+beta_0_0: 0.001
+beta_f_0: 55
+beta_0_1: 0.001
+beta_f_1: 15
+
+N: 2000
+n_torus: 4
+rpb: 1
+    
+std_trick: false
+boundary_enforce: true
+
+metric_type: "Hessian"
+p_eps: 1e-3
+
+lr: 2e-4
+splits: [1.0, 0.0, 0.0]
+batch_size: 256
+warmup_steps: 100
+steps: 150001
+val_freq: 10000
+ema_rate: 0.999
+eps: 1e-3
+eval_batch_size: 256

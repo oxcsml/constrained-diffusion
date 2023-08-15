@@ -1,0 +1,5 @@
+_target_: riemannian_score_sde.datasets.earth.USForestFire
+_convert_: partial
+data_dir: ${data_dir}
+batch_size: ${batch_size}
+name: us_forest_fires

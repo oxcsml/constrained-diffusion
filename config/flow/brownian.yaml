@@ -1,0 +1,5 @@
+_target_: riemannian_score_sde.sde.Brownian
+N: ${N}
+std_trick: ${std_trick}
+boundary_enforce: ${boundary_enforce}
+boundary_dis: ${boundary_dis}

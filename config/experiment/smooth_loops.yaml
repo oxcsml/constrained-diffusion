@@ -1,0 +1,29 @@
+# @package _global_
+
+name: smooth_loops
+
+defaults:
+  - /dataset: polytope
+  - /manifold: polytope
+  - /architecture: big_concat
+  - /embedding: none
+  - /model: rsgm
+  - override /generator: ambient
+  - override /flow: brownian
+  - override /loss: hessian
+  
+data_dir: /data/ziz/not-backed-up/fishman/score-sde/data/
+npz: /data/ziz/not-backed-up/fishman/score-sde/data/smooth_loops_dist.npz
+
+
+beta_0: 0.001
+beta_f: 50
+
+splits: [1.0, 0.0, 0.0]
+batch_size: 1024
+warmup_steps: 1000
+steps: 150001
+val_freq: 5000
+ema_rate: 0.999
+eps: 1e-3
+eval_batch_size: 256

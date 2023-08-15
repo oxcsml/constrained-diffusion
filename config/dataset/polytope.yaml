@@ -1,0 +1,3 @@
+_target_: riemannian_score_sde.datasets.antibody.Polytope
+npz: ${npz}
+batch_size: ${batch_size}

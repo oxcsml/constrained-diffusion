@@ -1,0 +1,2 @@
+_target_: score_sde.datasets.tensordataset.CSVDataset
+file: /data/ziz/not-backed-up/fishman/score-sde/data/angles.csv

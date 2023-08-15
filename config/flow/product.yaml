@@ -1,0 +1,5 @@
+_target_: score_sde.product.ProductSDE
+sdes:
+    - _target_: riemannian_score_sde.sde.Brownian
+    - _target_: riemannian_score_sde.sde.Hessian
+N: 1000

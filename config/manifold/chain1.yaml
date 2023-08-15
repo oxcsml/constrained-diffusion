@@ -1,0 +1,9 @@
+_target_: geomstats.geometry.product_manifold.ProductManifold
+manifolds:
+  - _target_: geomstats.geometry.polytope.Polytope
+    n_links: 16
+  - _target_: geomstats.geometry.product_manifold.ProductSameManifold
+    manifold:
+      _target_: geomstats.geometry.hypersphere.Hypersphere
+      dim: 1
+    mul: 15

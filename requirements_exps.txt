@@ -1,0 +1,8 @@
+tqdm
+seaborn
+wandb
+hydra_core
+hydra_colorlog
+submitit
+hydra-submitit
+hydra-joblib-launche

@@ -1,0 +1,10 @@
+# "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+dm-haiku
+optax
+distrax
+diffrax
+fsspec[http]>=2021.05.0, !=2021.06.0
+autograd 
+tqdm
+joblib
+cvxpy

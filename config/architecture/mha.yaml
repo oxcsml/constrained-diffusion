@@ -1,0 +1,4 @@
+_target_: score_sde.models.Attention
+# output_shape: ${manifold.embedding_space.dim}
+hidden_shapes: [512, 512]
+act: sin
